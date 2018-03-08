@@ -38,4 +38,4 @@ Press Ctrl-D to exit.
 ![](https://latex.codecogs.com/gif.latex?F%5Crightarrow%20%28E%29%7Cnum%7C-F)
 
 # License
-[MIT License](./blob/master/LICENSE)
+[MIT License](./LICENSE)
