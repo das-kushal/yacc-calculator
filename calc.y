@@ -14,6 +14,8 @@ int yywrap()
 
 int main(int argc, char* argv[])
 {
+    if (argc > 1 && argv[1])
+        yy_scan_string(argv[1]);
     yyparse();
     return 0;
 }
@@ -24,7 +26,7 @@ int main(int argc, char* argv[])
 
 %%
 S:
-    S E RET { printf("%lf\n", $2); }
+    E { printf("%lf\n", $1); }
     | /* empty */
     ;
 E:
