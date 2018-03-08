@@ -15,7 +15,7 @@ yacc calc.y
 gcc lex.yy.c y.tab.c -o calc
 ```
 
-# Run the calculator
+# How to use it
 ```bash
 ./calc
 ```
